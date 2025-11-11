@@ -17,3 +17,6 @@ elif operacion == '/':
         print("Error: no se puede dividir por cero.")
 else:
     print("Operación no válida.")
+    elif operacion == '%':
+    print("Resultado (Módulo):", numero_1 % numero_2)
+# ... (el else final se mantiene)
